@@ -31,4 +31,4 @@ jobs:
         run: |
           unset OPENAI_API_KEY
           unset CODEX_API_KEY
-          codex exec "Reply only with OK"
+          codex exec --skip-git-repo-check "Reply only with OK"
