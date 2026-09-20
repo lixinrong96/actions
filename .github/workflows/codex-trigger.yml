@@ -3,7 +3,7 @@ name: Codex 8AM Trigger
 on:
   schedule:
     # 北京时间 08:00 = UTC 00:00
-    - cron: "0 0 * * *"
+    - cron: "0 21 * * *"
 
   # 允许手动测试
   workflow_dispatch:
